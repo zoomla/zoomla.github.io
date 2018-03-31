@@ -1,4 +1,5 @@
 ## 逐浪CMS官方开源平台-即将开面开放
+[欢迎访问逐浪CMS官网](http://www.z01.com "欢迎访问逐浪CMS官网")
 
 You can use the [editor on GitHub](https://github.com/zoomla/zoomla.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
