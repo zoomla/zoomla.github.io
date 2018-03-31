@@ -1,9 +1,9 @@
 ## 逐浪CMS官方开源平台-即将开面开放
 [欢迎访问逐浪CMS官网](http://www.z01.com "欢迎访问逐浪CMS官网")
 
-You can use the [editor on GitHub](https://github.com/zoomla/zoomla.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### 下是测试内容，用于逐浪CMS教学，我们很快会发布opensurce开源页面
 
 # 中国山东有好人
 ![](https://www.5yaomaifang.com/Template/Mfang/style/Images/shanglong.jpg)
