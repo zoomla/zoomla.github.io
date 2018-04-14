@@ -104,7 +104,14 @@ img{width: 900px;}
 
 
 
-//第二屏
+//功能介绍四块
+.well{margin-top: 2rem;text-align: center;
+ul{@include myul;}
+}
+
+
+
+
 .home_page01{text-align: center;padding-top: 6rem;padding-bottom: 6rem;
 
 	.page01_computer{position: relative;margin-top: 6rem;

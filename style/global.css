@@ -112,6 +112,9 @@ a:hover { text-decoration: none; color: currentColor; }
 
 .e-func-more-menus { position: absolute; top: 40px; right: 0; z-index: 100; display: none; padding-right: 40px; padding-bottom: 10px; padding-left: 7px; width: 318px; background: #2595ff; color: #fff; }
 
+.well { margin-top: 2rem; text-align: center; }
+.well ul { padding-left: 0; list-style: none; }
+
 .home_page01 { text-align: center; padding-top: 6rem; padding-bottom: 6rem; }
 .home_page01 .page01_computer { position: relative; margin-top: 6rem; }
 .home_page01 .page01_computer img { width: 100%; }
