@@ -60,7 +60,7 @@ a:hover { text-decoration: none; color: currentColor; }
 
 /*仿pc操作效果 login9快速体验*/
 .computer_box { text-align: center; }
-.computer_box h2 { margin-top: 2rem; line-height: 4rem; font-weight: 100; }
+.computer_box h2 { margin-top: 3rem; line-height: 4rem; font-weight: 100; font-size: 1.8rem; }
 
 .computer { position: relative; margin: auto; width: 900px; }
 .computer ul { padding-left: 0; list-style: none; }
@@ -114,6 +114,11 @@ a:hover { text-decoration: none; color: currentColor; }
 
 .well { margin-top: 2rem; text-align: center; }
 .well ul { padding-left: 0; list-style: none; }
+.well span { display: block; height: 2rem; line-height: 2rem; }
+.well li:first-child span { background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 4rem 0; }
+.well li:nth-child(2) span { background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 3.6rem -2rem; }
+.well li:nth-child(3) span { background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 2.1rem -4rem; }
+.well li:nth-child(4) span { background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 2.6rem -6rem; }
 
 .home_page01 { text-align: center; padding-top: 6rem; padding-bottom: 6rem; }
 .home_page01 .page01_computer { position: relative; margin-top: 6rem; }

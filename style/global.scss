@@ -68,17 +68,14 @@ i{font-size: 6rem;}
 
 /*仿pc操作效果 login9快速体验*/
 .computer_box{ text-align: center;
-h2{margin-top: 2rem; line-height: 4rem;font-weight: 100;}
+h2{margin-top: 3rem; line-height: 4rem;font-weight: 100;font-size: 1.8rem;}
 }
 .computer {position: relative;margin: auto;width: 900px;
 ul{@include myul;}
 img{width: 900px;}
 }
 
-
-
 .e-func-box{position:absolute;    top: 2.6rem !important;  left: 2.86rem !important;display:none;width:814px;height:460px;background:#f1f1f1}
-
 .e-body .container,.e-footer .container{max-width:920px!important}
 .e-category-header p.e-title{ color:#000; line-height:35px; font-size:26px; text-align:center;}
 .e--sub-title { text-align:center;}
@@ -107,9 +104,12 @@ img{width: 900px;}
 //功能介绍四块
 .well{margin-top: 2rem;text-align: center;
 ul{@include myul;}
+span{display: block;height: 2rem;line-height: 2rem;}
+li:first-child span{background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 4rem 0;}
+li:nth-child(2) span{background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 3.6rem -2rem;}
+li:nth-child(3) span{background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 2.1rem -4rem;}
+li:nth-child(4) span{background: url(images/page1_info.png) no-repeat; background-size: 2rem; background-position: 2.6rem -6rem;}
 }
-
-
 
 
 .home_page01{text-align: center;padding-top: 6rem;padding-bottom: 6rem;
