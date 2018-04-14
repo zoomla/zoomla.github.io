@@ -53,7 +53,7 @@ li:hover{.dropdown-menu{display: block;transition: all 0.5s;}}
 //首页欢迎界面
 .hero{height: 50rem; background: url(images/brand-bg.jpg) no-repeat center bottom ;background-size: cover; color: #FFF;text-align: center;
 img{padding-top: 12rem;width:8rem;}
-span{display: block;line-height: 8rem; font-size: 2rem;font-weight: 100;}
+h1{display: block;line-height: 8rem; font-size: 2rem;font-weight: 100;}
 ul{@include myul;margin-top:6rem;}
 li{display:-webkit-inline-box;padding-left: 1rem; height: 5rem; overflow: hidden;}
 li:first-child{padding-top: 1.5rem; font-size: 1.2rem;opacity: 0.4;}
@@ -126,7 +126,7 @@ h3{padding-top: 3rem;line-height: 6rem; font-weight: 100;color: #333;}
 //第四屏
 .home_page03{padding-top: 6rem;padding-bottom: 6rem;
 ul{@incldue myul;}
-.page03_title{font-size: 2rem;text-align: center;}
+h4{ line-height: 4rem; font-size: 1.6rem;text-align: center; color: #666;}
 
 }
 
@@ -137,12 +137,8 @@ ul{@incldue myul;}
 		p{margin-bottom: 2rem;}
 		.page04_title_t{font-size: 2rem;color: rgba(255,255,255,1.00);margin-bottom: 2rem;}
 	}
-	a{display: block; width:8rem;border-radius: 3px; padding: .6rem 0 ; height:3rem; text-align: center;background: #fff;color: #4a8bfc;}
 	a:hover{color: #639bfc;}
 	.page04_info{list-style: none;width:100%;
-		.info_titleImg8{width:3rem;height:3rem;margin-bottom: 1rem;background: url(images/page1_info.png) no-repeat; background-size: 3rem; background-position: 0 0;}
-		.info_titleImg9{width:3rem;height:3rem;margin-bottom: 1rem;background: url(images/page1_info.png) no-repeat; background-size: 3rem; background-position: 0 -18rem;}
-		.info_titleImg10{width:3rem;height:3rem;margin-bottom: 1rem;background: url(images/page1_info.png) no-repeat; background-size: 3rem; background-position: 0 -21rem;}
 		li{padding: 4rem 1rem;
 			p{color: rgba(255,255,255,0.63);}
 			.info_title{color: #fff;}
@@ -231,7 +227,7 @@ ul{@incldue myul;}
 .footer_mail .mail_left {width: 100%;}
 	}
 .container{max-width: 100%;}
-
+.computer,.computer img{width: 100%;}
 }
 
 

@@ -49,7 +49,7 @@ a:hover { text-decoration: none; color: currentColor; }
 
 .hero { height: 50rem; background: url(images/brand-bg.jpg) no-repeat center bottom; background-size: cover; color: #FFF; text-align: center; }
 .hero img { padding-top: 12rem; width: 8rem; }
-.hero span { display: block; line-height: 8rem; font-size: 2rem; font-weight: 100; }
+.hero h1 { display: block; line-height: 8rem; font-size: 2rem; font-weight: 100; }
 .hero ul { padding-left: 0; list-style: none; margin-top: 6rem; }
 .hero li { display: -webkit-inline-box; padding-left: 1rem; height: 5rem; overflow: hidden; }
 .hero li:first-child { padding-top: 1.5rem; font-size: 1.2rem; opacity: 0.4; }
@@ -129,19 +129,15 @@ a:hover { text-decoration: none; color: currentColor; }
 
 .home_page03 { padding-top: 6rem; padding-bottom: 6rem; }
 .home_page03 ul { @incldue myul; }
-.home_page03 .page03_title { font-size: 2rem; text-align: center; }
+.home_page03 h4 { line-height: 4rem; font-size: 1.6rem; text-align: center; color: #666; }
 
 .home_page04 { background: #202834; color: #fff; padding-top: 6rem; padding-bottom: 6rem; }
 .home_page04 img { float: right; width: 50%; }
 .home_page04 .page04_title { width: 50%; color: rgba(255, 255, 255, 0.74); padding: 0 2rem; }
 .home_page04 .page04_title p { margin-bottom: 2rem; }
 .home_page04 .page04_title .page04_title_t { font-size: 2rem; color: white; margin-bottom: 2rem; }
-.home_page04 a { display: block; width: 8rem; border-radius: 3px; padding: 0.6rem 0; height: 3rem; text-align: center; background: #fff; color: #4a8bfc; }
 .home_page04 a:hover { color: #639bfc; }
 .home_page04 .page04_info { list-style: none; width: 100%; }
-.home_page04 .page04_info .info_titleImg8 { width: 3rem; height: 3rem; margin-bottom: 1rem; background: url(images/page1_info.png) no-repeat; background-size: 3rem; background-position: 0 0; }
-.home_page04 .page04_info .info_titleImg9 { width: 3rem; height: 3rem; margin-bottom: 1rem; background: url(images/page1_info.png) no-repeat; background-size: 3rem; background-position: 0 -18rem; }
-.home_page04 .page04_info .info_titleImg10 { width: 3rem; height: 3rem; margin-bottom: 1rem; background: url(images/page1_info.png) no-repeat; background-size: 3rem; background-position: 0 -21rem; }
 .home_page04 .page04_info li { padding: 4rem 1rem; }
 .home_page04 .page04_info li p { color: rgba(255, 255, 255, 0.63); }
 .home_page04 .page04_info li .info_title { color: #fff; }
@@ -191,7 +187,8 @@ a:hover { text-decoration: none; color: currentColor; }
   .home_page04 img { width: 100%; }
   .home_page04 .page04_title { width: 100%; }
   .home_footer .footer_mail .mail_left { width: 100%; }
-  .container { max-width: 100%; } }
+  .container { max-width: 100%; }
+  .computer, .computer img { width: 100%; } }
 /*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */
 
 /*# sourceMappingURL=global.css.map */
