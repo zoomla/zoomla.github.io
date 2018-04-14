@@ -47,18 +47,72 @@ a:hover { text-decoration: none; color: currentColor; }
 
 .home_nav_active { background: #2595ff; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.07); }
 
-.home_brand { height: 50rem; background: url(images/brand-bg.jpg) no-repeat center bottom; background-size: cover; color: #FFF; text-align: center; }
-.home_brand img { padding-top: 20rem; width: 8rem; }
-.home_brand span { display: block; line-height: 4rem; font-size: 2rem; font-weight: 100; }
-.home_brand ul { padding-left: 0; list-style: none; margin-top: 4rem; }
-.home_brand li { display: -webkit-inline-box; padding-left: 1rem; height: 5rem; overflow: hidden; }
-.home_brand li:first-child { padding-top: 1.5rem; font-size: 1.2rem; opacity: 0.4; }
-.home_brand li:last-child i { padding-top: 1.8rem; padding-left: 1.3rem; font-size: 2rem; }
-.home_brand li a { display: block; height: 5rem; line-height: 5rem; }
-.home_brand i { font-size: 6rem; }
+.hero { height: 50rem; background: url(images/brand-bg.jpg) no-repeat center bottom; background-size: cover; color: #FFF; text-align: center; }
+.hero img { padding-top: 12rem; width: 8rem; }
+.hero span { display: block; line-height: 8rem; font-size: 2rem; font-weight: 100; }
+.hero ul { padding-left: 0; list-style: none; margin-top: 6rem; }
+.hero li { display: -webkit-inline-box; padding-left: 1rem; height: 5rem; overflow: hidden; }
+.hero li:first-child { padding-top: 1.5rem; font-size: 1.2rem; opacity: 0.4; }
+.hero li:last-child i { padding-top: 1.8rem; padding-left: 1.3rem; font-size: 2rem; }
+.hero li a { display: block; height: 5rem; line-height: 5rem; }
+.hero i { font-size: 6rem; }
+.hero .btn { margin-top: 2rem; }
+
+/*仿pc操作效果 login9快速体验*/
+.computer_box { text-align: center; }
+.computer_box h2 { margin-top: 2rem; line-height: 4rem; font-weight: 100; }
+
+.computer { position: relative; margin: auto; width: 900px; }
+.computer ul { padding-left: 0; list-style: none; }
+.computer img { width: 900px; }
+
+.e-func-box { position: absolute; top: 2.6rem !important; left: 2.86rem !important; display: none; width: 814px; height: 460px; background: #f1f1f1; }
+
+.e-body .container, .e-footer .container { max-width: 920px !important; }
+
+.e-category-header p.e-title { color: #000; line-height: 35px; font-size: 26px; text-align: center; }
+
+.e--sub-title { text-align: center; }
+
+.e--sub-title a { color: #cccccc; }
+
+.e-func-box-header { width: 100%; height: 40px; background: #2595ff; color: #fff; }
+
+.e-func-box-body { width: 100%; height: 420px; background: #fff; }
+
+.e-func-body-left { float: left; width: 200px; height: 420px; background: #f1f1f1; }
+
+.e-func-body-right { position: relative; float: left; width: 614px; height: 420px; background: #fff; }
+
+.e-func-body-right img { width: 100%; height: 420px; }
+
+.e-func-header-title { float: left; width: 200px; height: 40px; background: #007cf1; text-align: center; font-weight: 700; font-size: 25px; line-height: 40px; }
+
+.e-func-header-menus { float: left; padding-left: 7px; }
+
+.e-func-header-menus .menu-item, .e-func-more-menus .menu-item { float: left; padding-right: 7px; padding-left: 7px; height: 40px; font-size: 9pt; line-height: 40px; cursor: pointer; }
+
+.e-func-header-menus .menu-item.active, .e-func-header-menus .menu-item:hover, .e-func-more-menus .menu-item.active, .e-func-more-menus .menu-item:hover { background: #007cf1; }
+
+.e-func-header-more { position: relative; float: left; margin-left: 20px; width: 40px; height: 40px; text-align: center; line-height: 35px; cursor: pointer; }
+
+.e-func-header-more:hover { background: #007cf1; }
+
+.e-image-desc { position: absolute; bottom: -1px; padding-right: 5px; padding-left: 5px; width: 100%; background: #666; background: rgba(0, 0, 0, 0.5); text-align: left; }
+
+.e-image-desc p { color: #fff; font-size: 9pt; line-height: 20px; }
+
+.e-func-left-header { height: 35px; background: #ddd; text-indent: 30px; font-weight: 700; font-size: 15px; line-height: 35px; }
+
+.e-func-left-header, .e-func-left-menu { float: left; width: 100%; color: #333; text-align: left; }
+
+.e-func-left-menu { height: 40px; border-left: 3px solid transparent; text-indent: 20px; font-size: 9pt; line-height: 40px; cursor: pointer; }
+
+.e-func-left-menu.active, .e-func-left-menu:hover { border-color: #2595ff; color: #2595ff; }
+
+.e-func-more-menus { position: absolute; top: 40px; right: 0; z-index: 100; display: none; padding-right: 40px; padding-bottom: 10px; padding-left: 7px; width: 318px; background: #2595ff; color: #fff; }
 
 .home_page01 { text-align: center; padding-top: 6rem; padding-bottom: 6rem; }
-.home_page01 .page01_title { font-size: 2rem; }
 .home_page01 .page01_computer { position: relative; margin-top: 6rem; }
 .home_page01 .page01_computer img { width: 100%; }
 .home_page01 .page01_computer .computer_box { position: absolute; top: 3rem; left: 4rem; right: 4rem; width: 61.5rem; height: 35.5rem; background: #f1f1f1; }
@@ -87,10 +141,9 @@ a:hover { text-decoration: none; color: currentColor; }
 .home_page01 .page01_info li p { color: #989898; }
 .home_page01 .page01_info li .info_title { color: #000000; }
 
-.home_page02 { background: #f9fafb; text-align: center; padding-top: 6rem; padding-bottom: 6rem; }
-.home_page02 img { width: 100%; margin-top: 4rem; }
-.home_page02 p { margin-bottom: 4rem; }
-.home_page02 .page02_title { font-size: 2rem; margin-bottom: 2rem; }
+.githubList { background: #f9fafb; text-align: center; padding-bottom: 2rem; }
+.githubList h3 { padding-top: 3rem; line-height: 6rem; font-weight: 100; color: #333; }
+.githubList .card { margin-top: 1rem; }
 
 .home_page03 { padding-top: 6rem; padding-bottom: 6rem; }
 .home_page03 .page03_title { font-size: 2rem; text-align: center; }
@@ -157,56 +210,6 @@ a:hover { text-decoration: none; color: currentColor; }
 .home_footer .footer_bottom { font-size: .8rem; padding-top: 2rem; padding-bottom: 2rem; }
 .home_footer .footer_bottom .left { float: left; }
 .home_footer .footer_bottom .right { float: right; }
-
-/*屏幕*/
-/*login9快速体验*/
-.e-body .container, .e-footer .container { max-width: 920px !important; }
-
-.e-category-header p.e-title { color: #000; line-height: 35px; font-size: 26px; text-align: center; }
-
-.e--sub-title { text-align: center; }
-
-.e--sub-title a { color: #cccccc; }
-
-.e-vertical-padding-md { padding-top: 80px; padding-bottom: 80px; }
-
-.e-func-box { position: absolute; top: -20px; left: -50px; display: none; width: 814px; height: 460px; background: #f1f1f1; }
-
-.e-func-box-header { width: 100%; height: 40px; background: #2595ff; color: #fff; }
-
-.e-func-box-body { width: 100%; height: 420px; background: #fff; }
-
-.e-func-body-left { float: left; width: 200px; height: 420px; background: #f1f1f1; }
-
-.e-func-body-right { position: relative; float: left; width: 614px; height: 420px; background: #fff; }
-
-.e-func-body-right img { width: 100%; height: 420px; }
-
-.e-func-header-title { float: left; width: 200px; height: 40px; background: #007cf1; text-align: center; font-weight: 700; font-size: 25px; line-height: 40px; }
-
-.e-func-header-menus { float: left; padding-left: 7px; }
-
-.e-func-header-menus .menu-item, .e-func-more-menus .menu-item { float: left; padding-right: 7px; padding-left: 7px; height: 40px; font-size: 9pt; line-height: 40px; cursor: pointer; }
-
-.e-func-header-menus .menu-item.active, .e-func-header-menus .menu-item:hover, .e-func-more-menus .menu-item.active, .e-func-more-menus .menu-item:hover { background: #007cf1; }
-
-.e-func-header-more { position: relative; float: left; margin-left: 20px; width: 40px; height: 40px; text-align: center; line-height: 35px; cursor: pointer; }
-
-.e-func-header-more:hover { background: #007cf1; }
-
-.e-image-desc { position: absolute; bottom: -1px; padding-right: 5px; padding-left: 5px; width: 100%; background: #666; background: rgba(0, 0, 0, 0.5); text-align: left; }
-
-.e-image-desc p { color: #fff; font-size: 9pt; line-height: 20px; }
-
-.e-func-left-header { height: 35px; background: #ddd; text-indent: 30px; font-weight: 700; font-size: 15px; line-height: 35px; }
-
-.e-func-left-header, .e-func-left-menu { float: left; width: 100%; color: #333; text-align: left; }
-
-.e-func-left-menu { height: 40px; border-left: 3px solid transparent; text-indent: 20px; font-size: 9pt; line-height: 40px; cursor: pointer; }
-
-.e-func-left-menu.active, .e-func-left-menu:hover { border-color: #2595ff; color: #2595ff; }
-
-.e-func-more-menus { position: absolute; top: 40px; right: 0; z-index: 100; display: none; padding-right: 40px; padding-bottom: 10px; padding-left: 7px; width: 318px; background: #2595ff; color: #fff; }
 
 /*小于768px手机优化*/
 @media screen and (max-width: 768px) { .home_nav { background: linear-gradient(to right, #347eff, #1ea3ff); }
