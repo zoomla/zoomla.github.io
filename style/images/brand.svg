@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 446.54 446.54">
+<defs>
+<style>
+.e3cd17af-55bd-415d-b9e2-6a4dde6f558d{fill:#efefef;}.bd608dc5-5018-4afd-aedd-910cebf25095{fill:#4f89c8;}
+.bd608dc5-5018-4afd-aedd-910cebf25096{fill:#ffffff;}
+</style>
+</defs>
+<title>zoomlaCMS</title>
+<g id="7676f433-f830-449f-b3bb-f1a5e10150d2" data-name="zoomlaLogo">
+<g id="1f497217-ab00-4351-8374-f517f0523f83" data-name="ico">
+<circle id="0e542ac0-8283-4510-ad0d-bdc0993ffae6" data-name="bg" class="e3cd17af-55bd-415d-b9e2-6a4dde6f558d" cx="223.27" cy="223.27" r="223.27"/>
+<polygon id="ecefabfd-71cd-4194-ade5-908baba6915c" data-name="ico" class="bd608dc5-5018-4afd-aedd-910cebf25095" points="370.72 341.99 363.77 277.17 231.94 277.17 249.31 115.14 248.59 115.14 178.56 115.14 121.13 115.14 103.59 188.24 170.72 188.24 154.23 341.99 370.72 341.99"/>
+<!--球在下面-->
+<circle id="585ca17e-36be-429f-80ae-3a71efe52381" data-name="ball" class="bd608dc5-5018-4afd-aedd-910cebf25096" cx="86.86" cy="49.93" r="44.94">
+<animateTransform attributeName="transform" begin="0s" dur="5s" type="rotate" from="0 210 210" to="360 210 210" repeatCount="indefinite"/>
+</circle></g>
+</g>
+</svg>
