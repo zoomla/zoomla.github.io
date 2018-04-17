@@ -51,7 +51,7 @@ li:hover{.dropdown-menu{display: block;transition: all 0.5s;}}
 .home_nav_active{background:rgb(37, 149, 255); box-shadow: 0 2px 6px 0 rgba(0,0,0,.07);}
 
 //首页欢迎界面
-.hero{height: 50rem; background: url(images/brand-bg.jpg) no-repeat center bottom ;background-size: cover; color: #FFF;text-align: center;
+.hero{padding-bottom: 2rem; background: url(images/brand-bg.jpg) no-repeat center bottom ;background-size: cover; color: #FFF;text-align: center;
 img{padding-top: 12rem;width:8rem;}
 h1{display: block;line-height: 8rem; font-size: 2rem;font-weight: 100;}
 ul{@include myul;margin-top:6rem;}
@@ -70,34 +70,33 @@ i{font-size: 6rem;}
 .computer_box{ text-align: center;
 h2{margin-top: 3rem; line-height: 4rem;font-weight: 100;font-size: 1.8rem;}
 }
-.computer {position: relative;margin: auto;width: 900px;
+.computer {position: relative;margin: auto;width: 56rem;
 ul{@include myul;}
-img{width: 900px;}
+img{width: 56rem;}
 }
 
-.e-func-box{position:absolute;    top: 2.6rem !important;  left: 2.86rem !important;display:none;width:814px;height:460px;background:#f1f1f1}
-.e-body .container,.e-footer .container{max-width:920px!important}
-.e-category-header p.e-title{ color:#000; line-height:35px; font-size:26px; text-align:center;}
+.e-func-box{position:absolute; top: 2.6rem !important;  left: 2.86rem !important;display:none;width:51rem;background:#f1f1f1}
+.e-category-header p.e-title{ color:#000; line-height:3rem; font-size:26px; text-align:center;}
 .e--sub-title { text-align:center;}
 .e--sub-title a { color:rgb(204,204,204);}
-.e-func-box-header{width:100%;height:40px;background:#2595ff;color:#fff}
-.e-func-box-body{width:100%;height:420px;background:#fff}
-.e-func-body-left{float:left;width:200px;height:420px;background:#f1f1f1}
-.e-func-body-right{position:relative;float:left;width:614px;height:420px;background:#fff}
-.e-func-body-right img{width:100%;height:420px}
-.e-func-header-title{float:left;width:200px;height:40px;background:#007cf1;text-align:center;font-weight:700;font-size:25px;line-height:40px}
+.e-func-box-header{width:100%;height:3rem;;background:#2595ff;color:#fff}
+.e-func-box-body{width:100%;background:#fff}
+.e-func-body-left{float:left;width:12rem;height:20rem;background:#f1f1f1}
+.e-func-body-right{position:relative;float:left;width:39rem;height:28rem;background:#fff}
+.e-func-body-right img{width:100%;height:28rem;}
+.e-func-header-title{float:left;width:12rem;height:3rem;;background:#007cf1;text-align:center;font-weight:700;font-size:25px;line-height:3rem;}
 .e-func-header-menus{float:left;padding-left:7px}
-.e-func-header-menus .menu-item,.e-func-more-menus .menu-item{float:left;padding-right:7px;padding-left:7px;height:40px;font-size:9pt;line-height:40px;cursor:pointer}
+.e-func-header-menus .menu-item,.e-func-more-menus .menu-item{float:left;padding-right:7px;padding-left:7px;height:3rem;;font-size:9pt;line-height:3rem;;cursor:pointer}
 .e-func-header-menus .menu-item.active,.e-func-header-menus .menu-item:hover,.e-func-more-menus .menu-item.active,.e-func-more-menus .menu-item:hover{background:#007cf1}
-.e-func-header-more{position:relative;float:left;margin-left:20px;width:40px;height:40px;text-align:center;line-height:35px;cursor:pointer}
+.e-func-header-more{position:relative;float:left;margin-left:20px;width:3rem;;height:3rem;;text-align:center;line-height:3rem;cursor:pointer}
 .e-func-header-more:hover{background:#007cf1}
 .e-image-desc{position:absolute;bottom:-1px;padding-right:5px;padding-left:5px;width:100%;background:#666;background:rgba(0,0,0,.5);text-align:left}
 .e-image-desc p{color:#fff;font-size:9pt;line-height:20px}
-.e-func-left-header{height:35px;background:#ddd;text-indent:30px;font-weight:700;font-size:15px;line-height:35px}
+.e-func-left-header{height:3rem;background:#ddd;text-indent:30px;font-weight:700;font-size:15px;line-height:3rem}
 .e-func-left-header,.e-func-left-menu{float:left;width:100%;color:#333;text-align:left}
-.e-func-left-menu{height:40px;border-left:3px solid transparent;text-indent:20px;font-size:9pt;line-height:40px;cursor:pointer}
+.e-func-left-menu{height:3rem;;border-left:3px solid transparent;text-indent:20px;font-size:9pt;line-height:3rem;;cursor:pointer}
 .e-func-left-menu.active,.e-func-left-menu:hover{border-color:#2595ff;color:#2595ff}
-.e-func-more-menus{position:absolute;top:40px;right:0;z-index:100;display:none;padding-right:40px;padding-bottom:10px;padding-left:7px;width:318px;background:#2595ff;color:#fff}
+.e-func-more-menus{position:absolute;top:3rem;right:0;z-index:100;display:none;padding-right:333333r3rem;;padding-bottom:10px;padding-left:7px;width:318px;background:#2595ff;color:#fff}
 
 
 
@@ -125,7 +124,7 @@ h3{padding-top: 3rem;line-height: 6rem; font-weight: 100;color: #333;}
 
 //第四屏
 .home_page03{padding-top: 6rem;padding-bottom: 6rem;
-ul{@incldue myul;}
+ul{@incldue myul; list-style: none;}
 h4{ line-height: 4rem; font-size: 1.6rem;text-align: center; color: #666;}
 
 }
@@ -201,25 +200,30 @@ h4{font-size: 1.28rem;text-decoration:underline;}
 }
 
 
-
-
-
-
-
-
-
-
-
- /*小于768px手机优化*/
+/*小于768px手机优化*/
 @media screen and (max-width:768px){
 //导航条
 .home_nav{background: linear-gradient(to right,#347eff,#1ea3ff);
 	.nav_active .nav-link{color:#fff;}
 	.nav_link{text-align: center;}
+	.navbar-brand{font-size: 1rem;}
 	}
-	
-.e-body{display: none;}
-
+//电脑屏幕展示
+.computer{width:19.5rem;
+	.e-func-box{width:19.5rem;top: 1rem !important;left: 1.1rem !important;}
+	.e-func-box-header{height:2rem;}
+	.e-func-header-menus .menu-item, .e-func-more-menus .menu-item{font-size: .4rem;height:2rem;line-height: 2rem;}
+	.e-func-header-more{height:2rem;line-height: 2rem;width:2rem;height:2rem;margin-left: 0;}
+	.e-func-more-menus{top:2rem;width:19.5rem;right: -.6rem;}
+	.e-func-body-left{width:5rem;height:9.5rem;}
+	.e-func-left-header {height: 2rem;text-indent: 6px;font-size: 0.6rem;line-height: 2rem;}
+	.e-func-header-title{height:2rem;width:5rem;line-height: 2rem;font-size: 1rem;}
+	.e-func-left-menu {height: 1.4rem;text-indent: 10px;font-size: .4rem;line-height: 1.4rem;}
+	.e-func-body-right{width:14.5rem;height:9.5rem;}
+	.e-func-body-right img {height: 9.5rem;}
+	.e-image-desc p {font-size: .4rem;line-height: .8rem;margin-bottom: 0;
+}
+	}
 .home_page04 img{width:100%;}
 .home_page04 .page04_title{width:100%;}
 
